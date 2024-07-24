@@ -14,20 +14,20 @@ This project demonstrates a basic client-server application using socket program
 
 ## Compilation
 
-To compile the server and client programs, run the following commands:
+To compile the server and client programs with `Makefile`, run the following commands:
 
 ```bash
-gcc -o server.exe server.c
-
-gcc -o client.exe client.c
+make 
 ```
+
+This will generate server.exe and client.exe files.
 
 ## Usage
 
 ### **Start the Server:**
 
 
-Open a terminal and run the server.c program:
+Open a terminal and run the server.exe program:
 
 ```bash
 ./server.exe
@@ -45,3 +45,15 @@ Open another terminal and run the client.exe:
 ```
 
 The client will connect to the server, receive the current date, and print it to the terminal.
+
+
+## Clean Up
+
+
+To remove the compiled binaries, run:
+
+```
+make clean
+```
+
+This will delete `server.exe` and `client.exe` from the project directory.
