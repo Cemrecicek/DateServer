@@ -4,8 +4,8 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c99
 SERVER_SRC = server.c
 CLIENT_SRC = client.c
-SERVER_BIN = server
-CLIENT_BIN = client
+SERVER_BIN = server.exe
+CLIENT_BIN = client.exe
 
 .PHONY: all clean
 
